@@ -32,7 +32,6 @@ class Student:
         print('Object initialized')
     def show(self):
         print('Hello, my name is', self.name)
-    # destructor
     def __del__(self):
         print("Inside destructor")
         print("Object destroyed")
