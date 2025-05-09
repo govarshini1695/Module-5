@@ -1,16 +1,16 @@
 # Exp.No:22  
-## Destructor
+## Destructor 
 
 ---
 
 ### AIM  
-To create a Python class `Student` with a destructor.
+To create a Python class `Student` with a destructor. 
 
 ---
 
-### ALGORITHM
+### ALGORITHM 
 
-1. Begin the program.  
+1. Begin the program.   
 2. Define the `student` class.  
 3. Inside the `student` class, define the `__init__` method (constructor) and the `__del__` method (destructor).  
 4. Create an object `s1` of the `student` class. When the object `s1` is created, the `__init__` method is called, and its print statements are executed.  
@@ -38,6 +38,7 @@ class Student:
 s1 = Student('Emma')
 s1.show()
 del s1
+
 
 ```
 
